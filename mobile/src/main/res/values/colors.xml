@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccentLight">#FFA0A1</color>
+    <color name="colorAccent">#FF2021</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="bg_splash">#0099cc</color>
+    <color name="bg_item_normal">#0000</color>
+    <color name="bg_item_pressed_white">#40ffffff</color>
+    <color name="colorTabBarBackground_White">#40ffffff</color>
+    <color name="colorTabBarBackground_Black">#40000000</color>
+
+    <color name="textPrimary_Chen">#01b0f0</color>
+    <color name="textSecondary_Chen_Dark">#ffffff</color>
+    <color name="textSecondary_Chen_Light">#282828</color>
+    <color name="textHightlight_Chen">#FCD116</color>
+
+    <color name="colorButtonNormal">@color/colorAccent</color>
+    <color name="colorButtonPressed">@color/colorAccentLight</color>
+    <color name="colorButtonDisabled">#cccccc</color>
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Customised Colors START -->
+        <item name="colorTabBarBackground">@color/colorTabBarBackground_White</item>
+        <!-- Customised Colors END -->
+
+        <!-- Customised Dimensions START -->
+        <item name="tabBarMinHeight">56dp</item>
+        <item name="headerImageHeight">120dp</item>
+        <!-- Customised Dimensions END -->
+
+        <!-- System Style Values START -->
+        <item name="android:textColorTertiary">@color/textSecondary_Chen_Light</item>
+        <item name="android:textColorSecondary">@color/textSecondary_Chen_Dark</item>
+        <item name="android:textColorSecondaryInverse">@color/textSecondary_Chen_Light</item>
+        <item name="android:textColorPrimary">@color/textPrimary_Chen</item>
+        <item name="android:textColorHighlight">@color/colorAccent</item>
+        <item name="android:editTextColor">@color/colorAccent</item>
+        <item name="android:colorBackground">#F7F9F5</item>
+        <!-- System Style Values END -->
+
+        <item name="WidgetTabView">@style/Widget.TabView</item>
+        <item name="android:windowBackground">@color/bg_window_light</item>
+
+    </style>
+
+    <style name="AppTheme.Dark">
+        <item name="colorTabBarBackground">@color/colorTabBarBackground_Black</item>
+
+        <!-- System Style Values START -->
+        <item name="android:textColorTertiary">@color/textSecondary_Chen_Dark</item>
+        <item name="android:textColorSecondary">@color/textSecondary_Chen_Light</item>
+        <item name="android:textColorSecondaryInverse">@color/textSecondary_Chen_Dark</item>
+        <item name="android:colorBackground">#2f3339</item>
+        <item name="android:windowBackground">@color/bg_window_dark</item>
+        <!-- System Style Values END -->
+
+    </style>
+    <style name="AppTheme.FullscreenTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bg_splash</item>
+        <item name="colorPrimaryDark">@color/bg_splash</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <color name="bg_window_dark">#282828</color>
+    <color name="bg_window_light">#F8f8f8</color>
+</resources>

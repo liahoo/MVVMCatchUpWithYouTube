@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme.FullscreenTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bg_splash</item>
+        <item name="android:navigationBarColor">@color/bg_splash</item>
+        <item name="android:colorPrimaryDark">@color/bg_splash</item>
+        <item name="colorPrimaryDark">@color/bg_splash</item>
+    </style>
+
+
+</resources>

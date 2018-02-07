@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="channelSnippet"
+            type="com.aguosoft.app.videocamp.model.VMChannelSnippet"/>
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="88dp"
+            android:minWidth="88dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:imageUrl="@{channelSnippet.thumbnailImageUrl}"
+            tools:src="@drawable/ic_channel_thumb_default"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:textColor="?android:textColorPrimary"
+            android:layout_centerHorizontal="true"
+            android:maxLines="2"
+            android:text="@{channelSnippet.title}"
+            tools:text="TitleTitleTitleTitleTitleTitleTitleTitleTitleTitle"/>
+
+    </RelativeLayout>
+</layout>
